@@ -1,5 +1,5 @@
-import Header from "./Header";
+import Homepage from "./components/Homepage";
 function App() {
-  return <Header />;
+  return <Homepage />;
 }
 export default App;
