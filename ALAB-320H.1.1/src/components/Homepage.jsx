@@ -5,12 +5,16 @@ import EmployeePage from "./EmployeePage";
 
 function Homepage() {
   return (
-    <div>
-      <Header />
-      <SearchBar />
-      <br />
-      <EmployeeList />
-      <EmployeePage />
+    <div className="flex-items">
+      <div>
+        <Header />
+        <SearchBar />
+        <br />
+        <EmployeeList />
+      </div>
+      <div>
+        <EmployeePage />
+      </div>
     </div>
   );
 }
