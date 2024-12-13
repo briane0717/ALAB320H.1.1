@@ -7,13 +7,12 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  min-width: 320px;
-  margin-top: 50px;
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   height: 100vh;
+  width: 50vw;
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
-  color: #213547;
+  border: 3px solid black;
   background-color: #ffffff;
 }
 
@@ -21,7 +20,7 @@ body {
   display: flex;
   justify-content: space-between;
   gap: 150px;
-  border: 5px solid black;
+  border: 5px solid rgb(243, 180, 18);
   padding: 50px 100px;
 }
 header {
@@ -34,7 +33,7 @@ header {
   border: 3px solid green;
 }
 .employee-list {
-  border: 2px solid purple;
+  border: 2px solid rgb(188, 74, 208);
   padding: 5px;
 }
 .employee-list-item {
@@ -42,6 +41,5 @@ header {
   background-color: #f9f9f9;
 }
 .employee {
-  width: 100%;
   border: 3px solid brown;
 }
